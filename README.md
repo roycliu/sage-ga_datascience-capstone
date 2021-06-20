@@ -1,1 +1,1 @@
-# roycliu-sage-ga_datascience-capstone
+# sage-ga_datascience-capstone
