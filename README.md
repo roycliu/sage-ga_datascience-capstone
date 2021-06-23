@@ -1,18 +1,18 @@
 # sage-ga_datascience-capstone
 ## [Deployed App](https://roy-liu-sage-ga.herokuapp.com/capstone) (host on Heroku)
 
-## Selecting Dataset
+## 🤨Selecting Dataset
 
 - First I was training recommendation system using Amazon user review 2018 dataset. However the challenges are
-  - dataset is way too large, in hundred MB size
-  - average review per user is 1, 
+  - ❌dataset is way too large, in hundred MB size
+  - ❌average review per user is 1, 
     - not much variation in terms of distances
     - and ends up with a really super sparse sparse matrix
-  - not easy to clean; e.g. a lot of NaN, 
-  - no product details in review datasets, and has to use Amazon product API to load
+  - ❌not easy to clean; e.g. a lot of NaN, 
+  - ❓no product details in review datasets, and has to use Amazon product API to load
     - there is a daily download quota, very hard to do large dataset training
 
-## Cleaning Dataset
+## 🧹Cleaning Dataset
 
 - Searching on other datasets in the meanwhile, found steam video game datasets on Kaggle
   - Two datasets are both under 50 MB size
@@ -23,7 +23,7 @@
   - explicitly converted title column into Unicode 
   - further dropped few columns that were not needed for training
 
-## Building System
+## 🏭Building System
 
 - Recommendation for Cold Start User
   - Top played (ranked by hour played)
@@ -34,7 +34,7 @@
   - Creating pairwise distance matrix
   - Creating a Cosine distance matrix to double check the pairwise distance matrix
 
-## Preparing for Deployment
+## 🧰Preparing for Deployment
 
 - Saved needed DataFrames into csv files
 - Prepared a genre DataFrame only for building the app
@@ -42,7 +42,7 @@
   - Not all titles have user data 
   - Get unique genre off the inner joined dataset, only 16k title left
 
-## Developing & Deploying the App
+## ✅Developing & Deploying the App
 
 - To be able to recommend by user preference, collect user genre and favorite title first
   - return the top 10 titles that similar users have played
