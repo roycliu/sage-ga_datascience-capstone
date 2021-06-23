@@ -25,13 +25,13 @@
 ## 🧹Cleaning Dataset
 
 - Searching on other datasets in the meanwhile, found steam video game datasets on Kaggle
-  - ✅Two datasets are both under 50 MB size
+  - ✅Two datasets found are both under 50 MB size
   - ✅200k rating, 12k users, and 40k titles are sufficient
-  - ✅easy to clean; just some dropping some columns and filtering out rows with too  NaN
-  - ✅still sufficient data left after cleansing
-- ❗After cleansing, got errors while inner joining datasets by game title
-  - explicitly converted title column into Unicode 
-  - further dropped few columns that were not needed for training
+  - ✅easy to clean; just had to drop some columns and filter out rows with too NaN in required columns
+  - ✅still sufficient data left after the clean up
+- ❗After cleansing, got errors while inner joining datasets on `game title` column. To resolve the issue had to
+  - explicitly converted title column into Unicode , and 
+  - further dropped few columns that were not needed for training (left them for app not model)
 
 ## 🏭Building System
 
