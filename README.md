@@ -1,5 +1,5 @@
 # sage-ga_datascience-capstone
-## [Deployed App](https://roy-liu-sage-ga.herokuapp.com/capstone) (host on Heroku)
+## [Deployed App](https://roy-liu-sage-ga.herokuapp.com/capstone) (platform: Heroku)
 
 ## 🤨Selecting Dataset
 
