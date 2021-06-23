@@ -13,22 +13,24 @@
   
 ## 🤨Selecting Dataset
 
-- ⛔First I was training recommendation system using Amazon user review 2018 dataset (UCSD). However the challenges are
-  - ❌dataset is way too large, in hundred MB size
+- ⛔First I was training recommendation system using __Amazon user review 2018__ dataset (UCSD). However the challenges are
+  - ❌dataset is way too large, in half GB size
   - ❌average rating per user is 1 product, 
     - not much variation in terms of distances
     - and ends up with a really super sparse `sparse matrix`
-  - ❌not easy to clean; e.g. a lot of NaN, 
+  - ❌not easy to clean; e.g. a string encoding issue and excessive NaN columns & rows, 
   - ❓no product details in review datasets, and has to use Amazon product API to load
     - there is a daily download quota, very hard to do large dataset training
 
 ## 🧹Cleaning Dataset
 
-- Searching on other datasets in the meanwhile, found steam video game datasets on Kaggle
-  - ✅Two datasets found are both under 50 MB size
-  - ✅200k rating, 12k users, and 40k titles are sufficient
+- Searching on other datasets in the meanwhile, found Steam video game datasets at Kaggle
+  - ✅Two Steam datasets found are both under 50 MB size
+  - ✅good size for project purpose
+  -- 200k rating, 12k users, and 40k titles are sufficient
   - ✅easy to clean; just had to drop some columns and filter out rows with too NaN in required columns
   - ✅still sufficient data left after the clean up
+  - note, found __Netflix__ dataset at Kaggle is also a good candidate
 - ❗After cleansing, got errors while inner joining datasets on `game title` column. To resolve the issue had to
   - explicitly converted title column into Unicode , and 
   - further dropped few columns that were not needed for training (left them for app not model)
