@@ -48,3 +48,6 @@
   - return the top 10 titles that similar users have played
 - most challenging part is creating data table using filtered result in Series format
   - tried two different format, DataTable vs IFrame
+
+![image](https://user-images.githubusercontent.com/37002271/123048204-ff8cf780-d3b2-11eb-9e0e-6a5e3765c5ab.png)
+
