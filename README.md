@@ -1,13 +1,17 @@
 # sage-ga_datascience-capstone
 ## [Deployed App](https://roy-liu-sage-ga.herokuapp.com/capstone) (platform: Heroku)
 
+## ©Dataset Source: Kaggle
+- [Stem Video Games](https://www.kaggle.com/trolukovich/steam-games-complete-dataset)
+- [Stem User Behavior](https://www.kaggle.com/tamber/steam-video-games)
+
 ## 🤨Selecting Dataset
 
-- ⛔First I was training recommendation system using Amazon user review 2018 dataset. However the challenges are
+- ⛔First I was training recommendation system using Amazon user review 2018 dataset (UCSD). However the challenges are
   - ❌dataset is way too large, in hundred MB size
-  - ❌average review per user is 1, 
+  - ❌average rating per user is 1 product, 
     - not much variation in terms of distances
-    - and ends up with a really super sparse sparse matrix
+    - and ends up with a really super sparse `sparse matrix`
   - ❌not easy to clean; e.g. a lot of NaN, 
   - ❓no product details in review datasets, and has to use Amazon product API to load
     - there is a daily download quota, very hard to do large dataset training
@@ -25,7 +29,7 @@
 
 ## 🏭Building System
 
-- Recommendation for Cold Start User
+- Recommendation for `Cold Start User`
   - 🥇Top played (ranked by hour played)
   - 🏆Top sold (ranked by unit sold) 
 -  Collaborative Filtering Recommendation 
