@@ -1,10 +1,15 @@
 # sage-ga_datascience-capstone
+  
+  
 ## [Deployed App](https://roy-liu-sage-ga.herokuapp.com/capstone) (platform: Heroku)
-
+## [Jupyter Notebook](https://github.com/roycliu/sage-ga_datascience-capstone/blob/main/capstone/Game%20Recommendation%20System.ipynb)
 ## ©Dataset Source: Kaggle
 - [Stem Video Games](https://www.kaggle.com/trolukovich/steam-games-complete-dataset)
 - [Stem User Behavior](https://www.kaggle.com/tamber/steam-video-games)
-
+  
+  
+  
+  
 ## 🤨Selecting Dataset
 
 - ⛔First I was training recommendation system using Amazon user review 2018 dataset (UCSD). However the challenges are
