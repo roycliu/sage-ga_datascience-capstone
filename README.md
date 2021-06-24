@@ -40,7 +40,7 @@
 - Recommendation for `Cold Start User`
   - 🥇Top played (ranked by hour played)
   - 🏆Top sold (ranked by unit sold) 
-- Key word, types & genre recommendatino: (not part of the app)
+- Tried Key word, types & genre based recommendation: (not part of the app)
 -  Collaborative Filtering Recommendation 
   - Create pivot table and sparse matrix
     - straightforward using cleansed datasets
