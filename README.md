@@ -17,7 +17,7 @@
   - ❌dataset is way too large, in half GB size
   - ❌average rating per user is 1 product, 
     - not much variation in terms of distances
-    - and ends up with a really super sparse `sparse matrix`
+    - and ends up with a really super scattered `sparse matrix`
   - ❌not easy to clean; e.g. a string encoding issue and excessive NaN columns & rows, 
   - ❓no product details in review datasets, and has to use Amazon product API to load
     - there is a daily download quota, very hard to do large dataset training
