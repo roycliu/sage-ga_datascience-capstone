@@ -25,9 +25,11 @@
 ## 🧹Cleaning Dataset
 
 - Searching on other datasets in the meanwhile, found Steam video game datasets at Kaggle
+  - An online game hub with 6M ~ 20M concurrent online user
+  - Has made real-time player data steam available to public
   - ✅Two Steam datasets found are both under 50 MB size
   - ✅good size for project purpose
-  -- 200k rating, 12k users, and 40k titles are sufficient
+    - 200k rating, 12k users, and 40k titles are sufficient
   - ✅easy to clean; just had to drop some columns and filter out rows with too NaN in required columns
   - ✅still sufficient data left after the clean up
   - note, found __Netflix__ dataset at Kaggle is also a good candidate
