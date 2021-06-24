@@ -42,7 +42,9 @@
 - Recommendation for `Cold Start User`
   - 🥇Top played (ranked by hour played)
   - 🏆Top sold (ranked by unit sold) 
-- Tried Key word, types & genre based recommendation: (not part of the app)
+- Then tried Keyword, types & genre based recommendation: 
+  - however, not part of the app due to keyword search can return to many or no data
+  - decided to take drop-down approach 
 -  Collaborative Filtering Recommendation 
   - Create pivot table and sparse matrix
     - straightforward using cleansed datasets
